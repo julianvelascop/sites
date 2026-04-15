@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Julian Velasco Plaza | Data & BI Consultant</title>
+    <meta name="description" content="Portfolio of Julian Velasco Plaza - Digital Transformation & Data Strategy Consultant based in Guayaquil, Ecuador">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">JVP</a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#about" class="nav-link" data-i18n="nav_about">About</a></li>
+                <li><a href="#experience" class="nav-link" data-i18n="nav_experience">Experience</a></li>
+                <li><a href="#skills" class="nav-link" data-i18n="nav_skills">Skills</a></li>
+                <li><a href="#certifications" class="nav-link" data-i18n="nav_certifications">Certifications</a></li>
+                <li><a href="#education" class="nav-link" data-i18n="nav_education">Education</a></li>
+                <li><a href="#contact" class="nav-link" data-i18n="nav_contact">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="toggle-btn" id="langToggle" aria-label="Toggle language" title="Cambiar idioma">
+                    <span class="lang-label">ES</span>
+                </button>
+                <button class="toggle-btn" id="darkToggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+                    <i class="fas fa-sun"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-bg-pattern"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <p class="hero-greeting" data-i18n="hero_greeting">Hello, I'm</p>
+                    <h1 class="hero-name">Julian Velasco Plaza</h1>
+                    <p class="hero-title" data-i18n="hero_title">Data Governance Consultant | Digital Transformation & Data Strategy Consultant | Data-Driven Leader</p>
+                    <p class="hero-location"><i class="fas fa-map-marker-alt"></i> Guayaquil, Ecuador</p>
+                    <div class="hero-cta">
+                        <a href="#contact" class="btn btn-primary" data-i18n="hero_cta1">Get in Touch</a>
+                        <a href="#experience" class="btn btn-outline" data-i18n="hero_cta2">View Experience</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="hero-card">
+                        <div class="hero-avatar">
+                            <i class="fas fa-user-tie"></i>
+                        </div>
+                        <div class="hero-stats">
+                            <div class="stat">
+                                <span class="stat-number" data-target="12">0</span><span class="stat-suffix">+</span>
+                                <span class="stat-label" data-i18n="stat_years">Years Experience</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number" data-target="5">0</span><span class="stat-suffix">+</span>
+                                <span class="stat-label" data-i18n="stat_companies">Companies</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number" data-target="13">0</span>
+                                <span class="stat-label" data-i18n="stat_certs">Certifications</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <a href="#about"><i class="fas fa-chevron-down"></i></a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+        <div class="container">
+            <h2 class="section-title" data-i18n="about_title">About Me</h2>
+            <p class="section-subtitle" data-i18n="about_subtitle">Driving Business Transformation through Data & BI</p>
+            <div class="about-content">
+                <div class="about-text">
+                    <p data-i18n="about_p1">I am a Digital Transformation & Data Strategy Consultant with expertise in business intelligence, data governance, and process optimization. I help organizations modernize operations, foster data-driven cultures, and gain a competitive edge through BI strategies.</p>
+                    <p data-i18n="about_p2">At VUMI, I advanced from Data Analyst to Data Analyst III, leading cross-functional initiatives, strengthening data governance frameworks, and developing BI solutions that provided executives with real-time insights. My career reflects consistent growth from technical execution to project leadership and team management.</p>
+                    <p data-i18n="about_p3">Currently, I also serve as a Data Governance Consultant at Azurian Consulting, contributing to projects focused on data migration, quality policies, and governance frameworks.</p>
+                </div>
+                <div class="about-highlights">
+                    <div class="highlight-card">
+                        <div class="highlight-icon"><i class="fas fa-chart-line"></i></div>
+                        <h3 data-i18n="hl_1_title">Strategic Data Leadership</h3>
+                        <p data-i18n="hl_1_desc">Building data-driven business models for sustainable growth.</p>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="highlight-icon"><i class="fas fa-shield-alt"></i></div>
+                        <h3 data-i18n="hl_2_title">Governance & Optimization</h3>
+                        <p data-i18n="hl_2_desc">Implementing frameworks that ensure compliance, security, and efficiency.</p>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="highlight-icon"><i class="fas fa-brain"></i></div>
+                        <h3 data-i18n="hl_3_title">Decision Intelligence</h3>
+                        <p data-i18n="hl_3_desc">Designing BI solutions that drive operational efficiency and executive decision-making.</p>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="highlight-icon"><i class="fas fa-rocket"></i></div>
+                        <h3 data-i18n="hl_4_title">Transformational Impact</h3>
+                        <p data-i18n="hl_4_desc">Leading digital transformation initiatives aligned with business objectives.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="section experience" id="experience">
+        <div class="container">
+            <h2 class="section-title" data-i18n="exp_title">Professional Experience</h2>
+            <p class="section-subtitle" data-i18n="exp_subtitle">A career built on data, leadership, and transformation</p>
+            <div class="timeline">
+                <!-- Azurian Consulting -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3>Data Governance Consultant</h3>
+                                <p class="company">Azurian Consulting <span class="badge">Full-time</span></p>
+                            </div>
+                            <span class="timeline-date">May 2025 &mdash; Present</span>
+                        </div>
+                        <p class="timeline-location"><i class="fas fa-map-marker-alt"></i> Guayaquil, Ecuador &middot; Remote</p>
+                        <ul class="timeline-details">
+                            <li>Managed and maintained data catalogs, dictionaries, and lineage documentation.</li>
+                            <li>Migrated ETL workflows from SSIS to modern data platforms such as Stratio.</li>
+                        </ul>
+                        <div class="timeline-skills">
+                            <span>Data Governance</span>
+                            <span>Data-driven Decision Making</span>
+                            <span>ETL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Freelance Consultant -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3>Digital Transformation & Data Strategy Consultant</h3>
+                                <p class="company">Independent <span class="badge">Freelance</span></p>
+                            </div>
+                            <span class="timeline-date">Jan 2018 &mdash; Present</span>
+                        </div>
+                        <p class="timeline-location"><i class="fas fa-map-marker-alt"></i> Guayaquil, Ecuador &middot; Hybrid</p>
+                        <ul class="timeline-details">
+                            <li>Implemented KPIs and OKRs to measure impact, drive improvement, and align business goals.</li>
+                            <li>Developed governance policies ensuring data quality, integrity, and regulatory compliance.</li>
+                        </ul>
+                        <div class="timeline-skills">
+                            <span>Team Leadership</span>
+                            <span>Project Management</span>
+                            <span>Data Strategy</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- VUMI -->
+                <div class="timeline-item">
+                    <div class="timeline-marker timeline-marker-large"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3>VIP Universal Medical Insurance Group, Ltd. (VUMI)</h3>
+                                <p class="company">Full-time &middot; 4 yrs 7 mos</p>
+                            </div>
+                            <span class="timeline-date">Jul 2020 &mdash; Jan 2025</span>
+                        </div>
+                        <p class="timeline-location"><i class="fas fa-map-marker-alt"></i> Guayaquil, Ecuador &middot; On-site</p>
+
+                        <div class="sub-role">
+                            <h4>Data Analyst III</h4>
+                            <span class="sub-date">Jan 2024 &mdash; Jan 2025</span>
+                            <ul class="timeline-details">
+                                <li>Managed end-to-end data projects, from design to delivery, ensuring business impact.</li>
+                                <li>Led and managed complex analytics projects delivering actionable business insights.</li>
+                                <li>Mentored junior analysts and supervised cross-functional data-driven initiatives.</li>
+                                <li>Collaborated with teams to align analytics with organizational strategic goals.</li>
+                                <li>Developed strategies to optimize business decision-making through data.</li>
+                            </ul>
+                        </div>
+
+                        <div class="sub-role">
+                            <h4>Senior Data Analyst</h4>
+                            <span class="sub-date">Jan 2023 &mdash; Dec 2023</span>
+                            <ul class="timeline-details">
+                                <li>Supervised and trained junior analysts to strengthen technical and analytical skills.</li>
+                                <li>Led advanced data analysis projects to support organizational and business goals.</li>
+                                <li>Collaborated with departments to ensure accuracy and consistency of critical data.</li>
+                                <li>Identified opportunities for process improvement through advanced analytics.</li>
+                                <li>Delivered actionable insights that improved decision-making efficiency.</li>
+                            </ul>
+                        </div>
+
+                        <div class="sub-role">
+                            <h4>Data Analyst</h4>
+                            <span class="sub-date">Jul 2020 &mdash; Dec 2022</span>
+                            <ul class="timeline-details">
+                                <li>Designed and automated business reports to meet evolving stakeholder requirements.</li>
+                                <li>Built ETL workflows for migration, integration, and transformation of large datasets.</li>
+                                <li>Streamlined internal processes through automation and SQL stored procedures.</li>
+                                <li>Performed large-scale data cleaning and validation to ensure quality standards.</li>
+                                <li>Developed data models and BI solutions including cubes and dashboards.</li>
+                            </ul>
+                        </div>
+                        <div class="timeline-skills">
+                            <span>SQL</span>
+                            <span>Microsoft SQL Server</span>
+                            <span>Project Management</span>
+                            <span>BI Solutions</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cabify -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3>Data Analyst</h3>
+                                <p class="company">Cabify <span class="badge">Full-time</span></p>
+                            </div>
+                            <span class="timeline-date">Sep 2016 &mdash; Dec 2017</span>
+                        </div>
+                        <p class="timeline-location"><i class="fas fa-map-marker-alt"></i> Ecuador &middot; On-site</p>
+                        <ul class="timeline-details">
+                            <li>Implemented and maintained BI dashboards for business performance tracking.</li>
+                            <li>Conducted statistical data analysis based on business requirements.</li>
+                            <li>Coordinated employee training and development programs.</li>
+                            <li>Designed and developed business reports using Tableau.</li>
+                            <li>Supervised and automated internal business processes.</li>
+                        </ul>
+                        <div class="timeline-skills">
+                            <span>Microsoft Excel</span>
+                            <span>SSIS</span>
+                            <span>Tableau</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Righttek -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3>Production Engineer</h3>
+                                <p class="company">Righttek <span class="badge">Full-time</span></p>
+                            </div>
+                            <span class="timeline-date">Nov 2013 &mdash; Jun 2016</span>
+                        </div>
+                        <p class="timeline-location"><i class="fas fa-map-marker-alt"></i> Ecuador &middot; On-site</p>
+                        <ul class="timeline-details">
+                            <li>Conducted SQL analysis and process improvements.</li>
+                            <li>Consolidated data for internal monitoring controls.</li>
+                            <li>Analyzed and resolved large-scale data incidents.</li>
+                            <li>Performed individual and bulk data corrections.</li>
+                            <li>Managed and distributed service desk tickets.</li>
+                        </ul>
+                        <div class="timeline-skills">
+                            <span>PL/SQL</span>
+                            <span>Microsoft Excel</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills" id="skills">
+        <div class="container">
+            <h2 class="section-title" data-i18n="skills_title">Skills & Expertise</h2>
+            <p class="section-subtitle" data-i18n="skills_subtitle">Tools and competencies I bring to every project</p>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="skill-category-icon"><i class="fas fa-database"></i></div>
+                    <h3>Data & Analytics</h3>
+                    <div class="skill-tags">
+                        <span>Business Intelligence (BI)</span>
+                        <span>Data Strategy</span>
+                        <span>Predictive Analytics</span>
+                        <span>Data Modeling</span>
+                        <span>ETL Workflows</span>
+                        <span>Data Cleaning & Validation</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-category-icon"><i class="fas fa-code"></i></div>
+                    <h3>Technical Tools</h3>
+                    <div class="skill-tags">
+                        <span>SQL</span>
+                        <span>PL/SQL</span>
+                        <span>Microsoft SQL Server</span>
+                        <span>SSIS</span>
+                        <span>Tableau</span>
+                        <span>Microsoft Excel</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-category-icon"><i class="fas fa-shield-alt"></i></div>
+                    <h3>Governance & Compliance</h3>
+                    <div class="skill-tags">
+                        <span>Data Governance</span>
+                        <span>Compliance & Security</span>
+                        <span>Quality Policies</span>
+                        <span>Data Migration</span>
+                        <span>Lineage Documentation</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-category-icon"><i class="fas fa-users-cog"></i></div>
+                    <h3>Leadership & Strategy</h3>
+                    <div class="skill-tags">
+                        <span>Digital Transformation</span>
+                        <span>Process Optimization</span>
+                        <span>Project Management</span>
+                        <span>Team Leadership</span>
+                        <span>Data-Driven Decision Making</span>
+                        <span>KPIs & OKRs</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-category-icon"><i class="fas fa-robot"></i></div>
+                    <h3>AI & Innovation</h3>
+                    <div class="skill-tags">
+                        <span>Artificial Intelligence (AI)</span>
+                        <span>Predictive Analytics</span>
+                        <span>Automation</span>
+                        <span>Modern Data Platforms</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="section certifications" id="certifications">
+        <div class="container">
+            <h2 class="section-title" data-i18n="cert_title">Certifications & Courses</h2>
+            <p class="section-subtitle" data-i18n="cert_subtitle">Continuous learning and professional development</p>
+            <div class="cert-grid">
+                <!-- Stratio -->
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fas fa-database"></i></div>
+                    <div class="cert-info">
+                        <h3>Stratio Generative AI Data Fabric Basics Certification (14.6)</h3>
+                        <p class="cert-issuer">StratioBD</p>
+                        <p class="cert-date"><i class="fas fa-calendar-alt"></i> Nov 2025</p>
+                    </div>
+                    <a href="https://certificate.stratio.com/user/certificate/cc428ab12baf46f0eb43e7d4a14f5748" target="_blank" rel="noopener noreferrer" class="cert-link" title="Show credential"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+
+                <!-- Generative AI Professional - Certiprof -->
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fas fa-robot"></i></div>
+                    <div class="cert-info">
+                        <h3>Generative AI Professional Certification &ndash; GAIPC</h3>
+                        <p class="cert-issuer">Certiprof</p>
+                        <p class="cert-date"><i class="fas fa-calendar-alt"></i> Jan 2025</p>
+                    </div>
+                    <a href="https://www.credly.com/badges/61220bd5-a298-4824-96ce-80a864dbd58d" target="_blank" rel="noopener noreferrer" class="cert-link" title="Show credential"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+
+                <!-- Generative AI Fundamentals - Microsoft & LinkedIn -->
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fab fa-microsoft"></i></div>
+                    <div class="cert-info">
+                        <h3>Fundamentos profesionales de IA generativa, por Microsoft y LinkedIn</h3>
+                        <p class="cert-issuer">Microsoft</p>
+                        <p class="cert-date"><i class="fas fa-calendar-alt"></i> Jan 2025</p>
+                    </div>
+                    <a href="https://www.linkedin.com/learning/certificates/19902f91f27422023ddd82ace58cc198e9b77384a84f3b7cec4217c8a2dbe2e5" target="_blank" rel="noopener noreferrer" class="cert-link" title="Show credential"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+
+                <!-- Critical Thinking - Udemy -->
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fas fa-lightbulb"></i></div>
+                    <div class="cert-info">
+                        <h3>Critical Thinking Strategies For Better Decisions</h3>
+                        <p class="cert-issuer">Udemy</p>
+                        <p class="cert-date"><i class="fas fa-calendar-alt"></i> Jul 2024</p>
+                    </div>
+                </div>
+
+                <!-- Business English - Udemy -->
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fas fa-language"></i></div>
+                    <div class="cert-info">
+                        <h3>Business English: Management & Leadership</h3>
+                        <p class="cert-issuer">Udemy</p>
+                        <p class="cert-date"><i class="fas fa-calendar-alt"></i> May 2024</p>
+                    </div>
+                </div>
+
+                <!-- BI Foundation - Certiprof -->
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fas fa-chart-bar"></i></div>
+                    <div class="cert-info">
+                        <h3>Business Intelligence Foundation Professional Certification BIFPC</h3>
+                        <p class="cert-issuer">Certiprof</p>
+                        <p class="cert-date"><i class="fas fa-calendar-alt"></i> Apr 2023 &middot; Expires Apr 2026</p>
+                    </div>
+                    <a href="https://www.credly.com/badges/c0024edb-d412-4aa6-a2ab-442db1fe05da" target="_blank" rel="noopener noreferrer" class="cert-link" title="Show credential"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+
+                <!-- Data-driven Decision Making with Python -->
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fab fa-python"></i></div>
+                    <div class="cert-info">
+                        <h3>Data-driven Decision Making with Python 4ta ed.</h3>
+                        <p class="cert-issuer">Universidad San Francisco de Quito</p>
+                        <p class="cert-date"><i class="fas fa-calendar-alt"></i> Mar 2023</p>
+                    </div>
+                </div>
+
+                <!-- Certificacion Internacional en Liderazgo -->
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fas fa-users"></i></div>
+                    <div class="cert-info">
+                        <h3>Certificacion Internacional en Liderazgo</h3>
+                        <p class="cert-issuer">UEES Online</p>
+                        <p class="cert-date"><i class="fas fa-calendar-alt"></i> Jul 2022</p>
+                    </div>
+                    <a href="https://www.credly.com/badges/5cf42dd1-08d1-477f-b8b8-50eff3e7d17c" target="_blank" rel="noopener noreferrer" class="cert-link" title="Show credential"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+
+                <!-- Profesional Power BI -->
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fas fa-chart-pie"></i></div>
+                    <div class="cert-info">
+                        <h3>Profesional Power BI</h3>
+                        <p class="cert-issuer">Gnosis-IT</p>
+                        <p class="cert-date"><i class="fas fa-calendar-alt"></i> Sep 2021</p>
+                    </div>
+                </div>
+
+                <!-- Scrum Foundation - Certiprof -->
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fas fa-sync-alt"></i></div>
+                    <div class="cert-info">
+                        <h3>Scrum Foundation Professional Certificate (SFPC)</h3>
+                        <p class="cert-issuer">Certiprof</p>
+                        <p class="cert-date"><i class="fas fa-calendar-alt"></i> Jun 2020</p>
+                    </div>
+                </div>
+
+                <!-- Google Analytics -->
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fab fa-google"></i></div>
+                    <div class="cert-info">
+                        <h3>Google Analytics para Principiantes</h3>
+                        <p class="cert-issuer">Google</p>
+                        <p class="cert-date"><i class="fas fa-calendar-alt"></i> Apr 2020</p>
+                    </div>
+                </div>
+
+                <!-- Big Data -->
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fas fa-server"></i></div>
+                    <div class="cert-info">
+                        <h3>Big Data</h3>
+                        <p class="cert-issuer">UEES Online</p>
+                        <p class="cert-date"><i class="fas fa-calendar-alt"></i> Mar 2019</p>
+                    </div>
+                </div>
+
+                <!-- Inteligencia de Negocios con Tableau -->
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fas fa-chart-area"></i></div>
+                    <div class="cert-info">
+                        <h3>Inteligencia de Negocios con Tableau</h3>
+                        <p class="cert-issuer">Sociedad Ecuatoriana de Estadistica</p>
+                        <p class="cert-date"><i class="fas fa-calendar-alt"></i> Sep 2017</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section education" id="education">
+        <div class="container">
+            <h2 class="section-title" data-i18n="edu_title">Education</h2>
+            <p class="section-subtitle" data-i18n="edu_subtitle">Academic foundation</p>
+            <div class="education-grid">
+                <div class="education-card">
+                    <div class="education-icon"><i class="fas fa-graduation-cap"></i></div>
+                    <h3>Universidad Particular de Especialidades Espiritu Santo</h3>
+                    <p class="education-location"><i class="fas fa-map-marker-alt"></i> Guayaquil, Ecuador</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <h2 class="section-title" data-i18n="contact_title">Get in Touch</h2>
+            <p class="section-subtitle" data-i18n="contact_subtitle">Open to leadership opportunities in BI, data governance, and digital transformation</p>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4 data-i18n="contact_location">Location</h4>
+                            <p>Guayaquil, Guayas, Ecuador</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-briefcase"></i>
+                        <div>
+                            <h4 data-i18n="contact_workpref">Work Preference</h4>
+                            <p data-i18n="contact_workpref_val">On-site &middot; Hybrid &middot; Remote</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <div>
+                            <h4>LinkedIn</h4>
+                            <a href="https://www.linkedin.com/in/julianvelascoplaza/" target="_blank" rel="noopener noreferrer">linkedin.com/in/julianvelascoplaza</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-cta">
+                    <p data-i18n="contact_cta_text">I am passionate about leveraging data to drive efficiency, innovation, and long-term business impact.</p>
+                    <a href="https://www.linkedin.com/in/julianvelascoplaza/" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-large">
+                        <i class="fab fa-linkedin"></i> <span data-i18n="contact_cta_btn">Connect on LinkedIn</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Julian Velasco Plaza. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
